@@ -6,8 +6,6 @@ public class BinarySearch {
     public static void main(String[] args) {
             int[] arr={5,3,2,4,1};
             int target=2;
-//            SortArray(arr);
-//            System.out.println(Arrays.toString(arr));
             int result=search(arr,target);
             System.out.println("The no. exists in index "+result);
 
@@ -28,19 +26,5 @@ public class BinarySearch {
         }
         return -1;
     }
-//    static void SortArray(int[] arr){
-//
-//        for (int i = 0; i < arr.length; i++) {
-//            for (int j = 1; j < arr.length; j++) {
-//                if (arr[i]>=arr[j]){
-//                    int temp;
-//                    temp=arr[i];
-//                    arr[i]=arr[j];
-//                    arr[j]=temp;
-//                }
-//            }
-//        }
-
-//    }
 }
 
